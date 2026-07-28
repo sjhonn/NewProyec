@@ -1,0 +1,19 @@
+{
+  "name": "acme/services-crm",
+  "description": "Sistema de gestión comercial de Acme Services",
+  "type": "project",
+  "require": {
+    "php": "^8.3 || ^8.4 || ^8.5",
+    "ext-pdo": "*",
+    "ext-pdo_pgsql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
